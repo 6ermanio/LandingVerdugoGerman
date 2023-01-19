@@ -1,0 +1,351 @@
+body{
+	font-size: 16px
+}
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 75px;
+	width: 100%;
+	border: 1px solid black;
+	background: yellow url('imagenes/banner.png');
+}
+
+h1.cabecera{
+	font-style: italic;
+	text-align: center;
+}
+
+img#logo{
+	position: absolute;
+	top: 0;
+	left: 0;	
+	float: left;
+	width: 75px;
+}
+
+img#correo{
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	height: 40px;
+	float: right;
+}
+
+nav {
+    position: absolute;
+    top: 76px;
+    left: 0;
+    width: 150px;
+    height: calc(100% - 154px);
+    border: 1px solid black;
+    background-color: beige;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width:150px;
+}
+
+nav li {
+    position: relative;
+    width:150px;
+    float:left;
+    clear:left;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    background-color: lightblue;
+    padding: 0 10px;
+    width: 130px;    
+    border-bottom: 1px solid Silver;
+}
+
+nav a:link {
+    color: blue; 
+}
+
+nav a:visited {
+    color: fuchsia; 
+}
+
+nav a:hover {
+    color: black;
+    background-color: lightgray; 
+}
+
+
+main {
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 154px);
+    top: 77px;
+    left: 152px;
+    background: white url('imagenes/fondo_main.jpg');
+}
+/*Estilos del index.html*/
+img#fotoF{
+	height: 150px;	
+}
+p.cuerpo{
+	text-align: left;
+}
+/*Estilos del horario.html*/
+table#THorario{
+    background-color: #ACFACF;
+    caption-side: top;
+    border-collapse: collapse;
+    empty-cells: show;    
+}
+
+td{
+	border: 5px solid black;
+}
+
+td.hora{
+	font-weight: bold;
+	background-color: #505050;
+	color: white;
+}
+
+td.libre{
+	background-color: #B5FF5B
+}
+
+td.interactivos{
+	background-color: #ECD1D1;
+}
+
+td.empotrados{
+	background-color: khaki;
+}
+
+td.arqEmp{
+	background-color: #7ED1FF;
+}
+
+td.topico1{
+	background-color: #9B88FF;
+}
+
+td.web{
+	background-color: #FFC02B;
+}
+
+td.Integrador{
+	background-color: #DE50FF;
+}
+
+td.Ingles{
+	background-color: #048C62;
+}
+
+td a{
+	display: block;
+    text-decoration: none;
+	font-style: normal;	
+}
+
+td a:link{
+	color: blue;
+}
+
+td a:visited{
+	color: fuchsia;
+}
+
+td a:hover{
+    color: black;
+    font-style: italic;
+}
+
+h2#tituloHorario{
+	text-align: center;
+	font-style: oblique;
+}
+
+th.titulosTabla{
+	font-style: oblique;
+	border: 5px solid black;
+	background-color: #505050;
+	color: white;
+}
+/*Tabla de descripción*/
+table#Tdescripcion{
+    background-color: #ACFACF;
+    caption-side: top;
+    border-collapse: collapse;
+    empty-cells: show;    
+}
+
+tr#interactivos th{
+	background-color: #ECD1D1;
+	font-style: normal;
+	color: green;
+}
+
+tr#empotrados th{
+	background-color: khaki;
+	font-style: normal;
+	color: black;
+}
+
+tr#ArqEmp th{
+	background-color: #7ED1FF;
+	font-style: normal;
+	color: black;
+}
+
+tr#topico1 th{
+	background-color: #9B88FF;
+	font-style: normal;
+	color: white; 
+}
+
+tr#web th{
+	background-color: #FFC02B;
+	font-style: oblique;
+}
+
+tr#ingles th{
+	background-color: #048C62;
+	font-style: normal;
+	color: black; 
+}
+
+tr#Integrador th{
+	background-color: #DE50FF;
+	color: blue;
+}
+
+th{
+	border: 5px solid black;	
+}
+
+/*Estilos para aficciones.html*/
+ul.Principal{
+	border: solid black 2px;
+	background-color: #FFFDA3;
+}
+
+ul.categoria{
+	border: solid black 2px;
+	background-color: white;	
+}
+
+ul.categoria li{
+	list-style-type: square;
+}
+
+li.Principal{
+	list-style-type: disc;
+	font-style: oblique;
+}
+
+img#Nietzsche{
+	height: 175px;
+}
+
+img#Gaiman{
+	height: 175px;	
+}
+
+img#guitarra{
+	height: 125px;
+}
+
+/*Estilos para contacto.html*/
+form{
+	border: solid black 1px;
+}
+
+
+fieldset legend{
+ font-style: oblique;
+ font-stretch: bold;
+}
+fieldset.sexo{
+	border: solid black 2px;
+	background-color: #C1FFF9;
+}
+
+
+fieldset.discusion{
+	border: solid black 2px;
+	background-color: #FFA5A5;
+}
+
+fieldset.comentarios{
+	border: solid black 2px;
+	background-color: #ABFF4A;
+}
+
+fieldset.E-mail{
+	border: solid black 1px;
+}
+
+div#botones{
+	border: solid black 1px;
+}
+
+textarea{
+	border: solid black 1px;
+}
+footer{
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	top: 800px;
+	left: 0;
+	bottom: 0;	
+	background-color: black;
+}
+
+footer#aficciones{
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	top: 950px;
+	left: 0;
+	bottom: 0;	
+	background-color: black;	
+}
+
+footer#Contacto{
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	top: 600px;
+	left: 0;
+	bottom: 0;	
+	background-color: black;	
+}
+
+footer#Principal{
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	top: 600px;
+	left: 0;
+	bottom: 0;	
+	background-color: black;		
+}
+
+
+footer p{
+	color: white;
+	font-style: italic;
+	text-align: center;
+}
+
+img#linkedin{
+	position: absolute;
+	bottom: 0px;
+	right: 35px;
+	height: 75px;
+}
